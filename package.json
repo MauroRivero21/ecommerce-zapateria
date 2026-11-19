@@ -1,0 +1,15 @@
+{
+  "name": "daniel-restrepo-ecommerce",
+  "private": true,
+  "version": "0.1.0",
+  "description": "E-commerce de sneakers Daniel Restrepo: storefront Next.js + backend Medusa.",
+  "scripts": {
+    "dev": "npm --prefix storefront run dev",
+    "build": "npm --prefix storefront run build",
+    "start": "npm --prefix storefront run start",
+    "lint": "npm --prefix storefront run lint",
+    "backend:dev": "npm --prefix backend/apps/backend run dev",
+    "backend:migrate": "npm --prefix backend/apps/backend exec -- medusa db:migrate",
+    "backend:seed": "npm --prefix backend/apps/backend run seed"
+  }
+}
